@@ -13,6 +13,6 @@ public class AplMain {
 		//OJO: Falta la captura de datos del estudiante
 		int promedio = e1.nota + e2.nota + e3.nota + e4.nota + e5.nota;
 		
-		System.out.println(promedio);
+		System.out.println("el promedio es:"+promedio);
 	}
 }
