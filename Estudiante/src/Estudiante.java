@@ -2,7 +2,7 @@
 public class Estudiante {
 	int nota;
 	String nombre;
-	String password;
+	String universidad;
 	
 	public int solicitarNota() {
 		return 0;
