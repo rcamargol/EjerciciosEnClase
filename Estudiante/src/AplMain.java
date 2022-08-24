@@ -1,3 +1,4 @@
+import co.edu.unbosque.model.Estudiante;
 
 public class AplMain {
 
@@ -11,8 +12,8 @@ public class AplMain {
 		e5 = new Estudiante();
 		
 		//OJO: Falta la captura de datos del estudiante
-		int promedio = e1.nota + e2.nota + e3.nota + e4.nota + e5.nota;
+		//int promedio = e1.nota + e2.nota + e3.nota + e4.nota + e5.nota;
 		
-		System.out.println("el promedio es:"+promedio);
+		//System.out.println("el promedio es:"+promedio);
 	}
 }
