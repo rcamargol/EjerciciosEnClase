@@ -11,7 +11,7 @@ public class Controller {
 	public Controller() {
 		m = new ClaseX();
 		gui = new View();
-		gui.mostrarMatriz(m.matricesPunto1());
-		//gui.mostrarResultados(m.procesarDato(gui.pedirDato()));
+		gui.mostrarMatriz(m.matricesPunto1(),4,4);
+		gui.mostrarMatriz(m.matricesPunto2(),2,4);
 	}
 }

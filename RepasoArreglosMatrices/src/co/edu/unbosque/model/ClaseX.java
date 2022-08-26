@@ -50,10 +50,6 @@ public class ClaseX {
 		int[][] matriz = new int[4][4];
 		int i, j;
 		for (i = 0; i < 4; i++)
-			for (j = 0; j < 4; j++)
-				matriz[i][j] = 0;
-
-		for (i = 0; i < 4; i++)
 			for (j = 0; j < 4; j++) {
 				if (i == j) { // diagonal
 					matriz[i][j] = (int)Math.pow(2, j+1);
@@ -69,12 +65,14 @@ public class ClaseX {
 		return matriz;
 	}
 
-	public int[][] matricesPunto2(int [] A , int[] B){
-		int[][] M = new int[4][2];
-		int i, j;
+	public int[][] matricesPunto2(){
+		int[] A = {1,2,3,4};
+		int[] B = {8,9,10,11};
+		int[][] M = new int[2][4];
+		int i;
 		for(i=0 ; i<4 ; ++i) {
-			M[i][0] = A[i];
-			M[i][1] = B[i];
+			M[0][i] = A[i];
+			M[1][i] = B[i];
 		}
 		return M;
 	}

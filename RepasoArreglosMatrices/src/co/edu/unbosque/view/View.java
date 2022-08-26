@@ -28,12 +28,13 @@ public class View {
 		return arr;
 	}
 
-	public void mostrarMatriz(int[][] mat) {
-		for (int i = 0; i < mat.length; i++) {
-			for (int j = 0; j < mat.length; j++) {
+	public void mostrarMatriz(int[][] mat,int fil, int col) {
+		for (int i = 0; i < fil; i++) {
+			for (int j = 0; j < col; j++) {
 				System.out.print(mat[i][j] + "\t");
 			}
 			System.out.println();
 		}
+		System.out.println();
 	}
 }
