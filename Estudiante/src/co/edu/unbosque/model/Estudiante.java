@@ -2,23 +2,23 @@ package co.edu.unbosque.model;
 
 public class Estudiante {
 	
-	private int nota;
+	private double nota;
 	private String nombre;
 	private String universidad;
-	
-	//Aqui van los getters y setters
-	
-	public Estudiante(String nombre, String univ, int nota) {
-		this.nombre = nombre;
-		this.universidad = univ;
-		this.nota = nota;
+
+	public Estudiante() {
+		this.nota = 0;
+		this.nombre = "";
+		this.universidad = "";
 	}
 
-	public int getNota() {
+	//Aqui van los getters y setters
+
+	public double getNota() {
 		return nota;
 	}
 
-	public void setNota(int nota) {
+	public void setNota(double nota) {
 		this.nota = nota;
 	}
 
