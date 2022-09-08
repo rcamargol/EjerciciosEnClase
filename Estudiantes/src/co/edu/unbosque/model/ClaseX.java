@@ -8,6 +8,10 @@ public class ClaseX {
 	}
 
 	public String procesarDato(String dato) {
+		int c=7;
+		if(c => 7)
+			System.out.println("ffff");
+
 		return dato + " Proceso en ClaseX";
 	}
 
